@@ -1,0 +1,56 @@
+header a:visited,footer a:visited{
+    color: white;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+header img{
+    max-width: 120px;
+}
+header>nav:last-child li:last-child a{
+    background: #2400ff;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 7px;
+}
+
+nav>ul li{
+    padding-inline-start: 0px;
+    padding: 15px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+header{
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+/*footer*/
+footer div, footer a,header li a{
+    color: white;
+}
+footer{
+    background-color: black;
+    height: 63px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer>div{
+    text-align: center;
+}
+
+
+/*main*/

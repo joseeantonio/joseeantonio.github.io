@@ -1,0 +1,148 @@
+header a:visited,footer a:visited{
+    color: white;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+header img{
+    max-width: 120px;
+}
+header>nav:last-child li:last-child a{
+    background: #2400ff;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 7px;
+}
+
+nav>ul li{
+    padding-inline-start: 0px;
+    padding: 15px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+header{
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+/*footer*/
+footer div, footer a,header li a{
+    color: white;
+}
+footer{
+    background-color: black;
+    height: 63px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer>div{
+    text-align: center;
+}
+
+
+/*main*/
+main{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(230.2deg, rgba(24, 95, 202, 0.08) 0%, rgba(24, 95, 202, 0.18) 13.54%,
+    rgba(24, 95, 202, 0.28) 30.75%, rgba(24, 95, 202, 0.7) 76.6%, #185FCA 107.35%);
+}
+label{
+    padding-left:44px ;
+    padding-top: 20px;
+}
+main div>h1{
+    text-align: center;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+#colocar{
+    width: 100%;
+    padding-top: 47px;
+}
+
+#caja{
+    position: relative;
+    border-radius: 10px;
+    background: rgba(255, 255, 255,.65);
+    width: 340px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    display: block;
+    width: 255px;
+    height: 20px;
+    margin: 0 auto;
+    padding-top: 21px;
+    background: none;
+}
+
+input[type=checkbox]{
+    width: 13px;
+    margin: 0;
+}
+
+button{
+    background-color: #FF8F3E;
+    color: black;
+    border: none;
+    width: 112px;
+    height: 25px;
+    margin: 0 auto;
+
+}
+main p{
+    text-align: center;
+}
+h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 19px;
+}
+form>label{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+}
+form>label:first-child{
+    padding-top: 42px;
+}
+form>div{
+    padding-top: 42px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 22px;
+    align-items: center;
+}
+

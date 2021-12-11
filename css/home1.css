@@ -1,0 +1,133 @@
+header a:visited,footer a:visited{
+    color: white;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header>a>img{
+    max-width: 120px;
+}
+header>nav:last-child li:last-child a{
+    background: #2400ff;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 7px;
+}
+
+
+footer div, footer a,header li a{
+    color: white;
+
+}
+nav>ul li{
+    padding-inline-start: 0px;
+    padding: 15px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+nav:last-child ul{
+    margin-inline-end: 0px;
+}
+
+
+main{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-image: url("../img/img_fondo.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    align-items: center;
+}
+main > div::before{
+    content: '';
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    background: #abaaff;
+    opacity: 0.4;
+}
+
+main>*{
+    display: flex;
+    justify-content: center;
+}
+
+
+header{
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+footer{
+    background-color: black;
+    height: 63px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main a{
+    color: white;
+    position: relative;
+    align-items: center;
+    background: #2400ff;
+    border-radius: 5px;
+    height: 40px;
+    width: 195px;
+    margin: 0 auto;
+}
+main p {
+    position: relative;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 41px;
+}
+main h1{
+    margin-top: 100px;
+    position: relative;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+
+footer>div{
+    text-align: center;
+}
+
+
+.modo_claro{
+    left: -599px;
+    padding-top: 8px;
+    color: white;
+    text-align: center;
+    background: black;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin: 0 auto;
+    bottom: -317px;
+}
+main section{
+    justify-content: inherit;
+}
