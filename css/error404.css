@@ -54,3 +54,48 @@ footer>div{
 
 
 /*main*/
+main{
+    width: 100%;
+    height: 570px;
+    position: relative;
+    background-image: url("../img/img_error.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    align-items: center;
+}
+
+main img{
+    max-height: 90px;
+    animation: vuelta 3s infinite linear;
+    bottom: 150px;
+    left: 590px;
+    position: absolute;
+}
+
+main h1{
+    font-size: 100px;
+    padding-top: 50px;
+    text-align: center;
+    animation: error 3s infinite alternate linear;
+}
+@keyframes error{
+    from {
+        width: 75%;
+    }
+    to {
+        width: 141%;
+    }
+}
+
+
+
+@keyframes vuelta{
+    from {
+        transform: rotate(0deg)  translate(-100px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(-100px) rotate(-360deg);
+    }
+}
