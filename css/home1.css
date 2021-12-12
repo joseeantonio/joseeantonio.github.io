@@ -133,9 +133,8 @@ main section{
 }
 
 /*media query*/
+
 /*1315-1025*/
-
-
 @media screen and (max-width: 1315px) and (min-width: 1025px){
     /*header*/
     header{
