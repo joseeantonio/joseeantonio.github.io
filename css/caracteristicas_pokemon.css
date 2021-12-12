@@ -140,6 +140,7 @@ main>div:nth-child(2)>div>div>div>div>h2{
     font-weight: 500;
     font-size: 25px;
     margin-top: 23px;
+    color: white;
 }
 
 main>div:nth-child(2)>div>div:nth-child(2)>p{
@@ -160,6 +161,7 @@ main>div:nth-child(2)>div>p{
 main>div:last-child{
     display: flex;
     margin-top: 130px;
+    justify-content: space-around;
 }
 
 main>div:last-child>div>h3{
@@ -169,13 +171,11 @@ main>div:last-child>div>h3{
     font-size: 25px;
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 200px;
 }
 
 main>div:last-child>div>div{
     display: flex;
     justify-content: space-around;
-    margin-left: 200px;
     width: 264px;
 }
 main>div:last-child>div>div>div>p{
@@ -223,4 +223,137 @@ main>div:last-child>div:last-child>div>div:last-child>p{
     border-radius: 5px;
     width: 97px;
     height: 29px;
+}
+
+
+@media screen and (max-width: 1315px) and (min-width: 1025px){
+    /*header*/
+    header{
+        font-size: 14px;
+        height: 53px;
+    }
+    header>nav>ul>a{
+        font-size: 18px;
+    }
+    header>a>img{
+        max-width: 137px;
+    }
+    /*footer*/
+    footer{
+        font-size: 15px;
+    }
+    /*main*/
+    main>div:nth-child(2)>div>p{
+        font-size: 16px;
+    }
+
+}
+/*1024-769*/
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    /*header*/
+    header{
+        font-size: 10px;
+        height: 43px;
+    }
+    header>a>img{
+        max-width: 100px;
+    }
+    header>nav>ul>a{
+        font-size: 14px;
+    }
+    header>nav>ul>li:nth-child(4){
+        margin-right: 100px;
+    }
+    /*footer*/
+    footer{
+        font-size: 11px;
+    }
+    /*main*/
+    main>div:nth-child(2)>img{
+        width: 325px;
+        height: 291px;
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+    main>div:nth-child(2)>div>p{
+        width: 320px;
+        margin-left: 40px;
+    }
+    main>div:nth-child(2)>div>div:nth-child(2){
+        width: 322px;
+        margin-left: 40px;
+    }
+
+}
+/*768-320*/
+@media screen and (max-width: 768px) and (min-width: 320px){
+    /*header*/
+    header{
+        font-size: 6px;
+        height: 73px;
+    }
+
+    header>nav>ul>a{
+        font-size: 9px;
+    }
+
+    header>nav>ul>li:nth-child(4){
+        margin-right: 0px;
+    }
+    header>nav{
+        text-align: center;
+    }
+
+    header>a>img{
+        max-width: 35px;
+    }
+    /*footer*/
+    footer{
+        font-size: 7px;
+    }
+    /*main*/
+    main>div:nth-child(2)>img{
+        width: 125px;
+        height: 91px;
+        margin-top: 180px;
+        margin-left: 60px;
+    }
+    main>div:first-child>h1{
+        font-size: 30px;
+    }
+    main>div:nth-child(2)>div>div:nth-child(2){
+        width:147px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    main>div:nth-child(2)>div>div>div>div>h2{
+        font-size: 15px;
+    }
+    main>div:nth-child(2)>div>div>div>div>p{
+        font-size: 15px;
+    }
+    main>div:nth-child(2)>div>p{
+        width: 120px;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    main>div:first-child>h1{
+        width: 200px;
+        height: 42px;
+    }
+    main>div:last-child>div>div>div>p{
+        font-size: 10px;
+    }
+    main>div:last-child>div:first-child>div>div:first-child>p:first-child,main>div:last-child>div:first-child>div>div:first-child>p:last-child
+    ,main>div:last-child>div:first-child>div>div:last-child>p:first-child,main>div:last-child>div:first-child>div>div:last-child>p:last-child
+    ,main>div:last-child>div:last-child>div>div:first-child>p,main>div:last-child>div:last-child>div>div:last-child>p{
+        width: 50px;
+        height: 17px;
+    }
+    main>div:last-child>div>div{
+        width: 150px;
+    }
+    main>div:last-child>div>h3{
+        font-size: 15px;
+    }
 }

@@ -82,10 +82,19 @@ main h1{
 }
 @keyframes error{
     from {
-        width: 75%;
+        width: 57%;
     }
     to {
         width: 141%;
+    }
+}
+
+@keyframes errorMovil{
+    from {
+        width: 70%;
+    }
+    to {
+        width: 120%;
     }
 }
 
@@ -98,4 +107,70 @@ main h1{
     to {
         transform: rotate(360deg) translate(-100px) rotate(-360deg);
     }
+}
+
+
+@media screen and (max-width: 1315px) and (min-width: 1025px){
+    /*header*/
+    header{
+        font-size: 14px;
+        height: 53px;
+    }
+    header>a>img{
+        max-width: 137px;
+    }
+    /*footer*/
+    footer{
+        font-size: 15px;
+    }
+}
+/*1024-769*/
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    /*header*/
+    header{
+        font-size: 10px;
+        height: 43px;
+    }
+    header>a>img{
+        max-width: 100px;
+    }
+    /*footer*/
+    footer{
+        font-size: 11px;
+    }
+    /*main*/
+    main h1{
+        font-size: 70px;
+    }
+    main>img{
+        left: 45%;
+    }
+}
+/*768-320*/
+@media screen and (max-width: 768px) and (min-width: 320px){
+    /*header*/
+    header{
+        font-size: 6px;
+        height: 73px;
+    }
+    header>nav{
+        text-align: center;
+    }
+
+    header>a>img{
+        max-width: 35px;
+    }
+    /*footer*/
+    footer{
+        font-size: 7px;
+    }
+    /*main*/
+    main h1{
+        font-size: 50px;
+        animation: errorMovil 1s infinite alternate linear;
+    }
+    main>img{
+        left: 35%;
+    }
+
 }

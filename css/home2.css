@@ -1,6 +1,7 @@
 header a:visited,footer a:visited{
     color: white;
 }
+
 *{
     text-decoration: none;
     margin: 0;
@@ -15,13 +16,6 @@ nav {
 
 header img{
     max-width: 120px;
-}
-header>nav:last-child li:last-child a{
-    background: #2400ff;
-    border-radius: 5px;
-    text-align: center;
-    margin-right: 15px;
-    padding: 7px;
 }
 
 
@@ -135,4 +129,82 @@ header>nav>ul>li:nth-child(4){
 }
 main section{
     justify-content: inherit;
+}
+@media screen and (max-width: 1315px) and (min-width: 1025px){
+    /*header*/
+    header{
+        font-size: 14px;
+        height: 53px;
+    }
+    header>nav>ul>a{
+        font-size: 18px;
+    }
+    header>a>img{
+        max-width: 137px;
+    }
+    /*footer*/
+    footer{
+        font-size: 15px;
+    }
+}
+/*1024-769*/
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    /*header*/
+    header{
+        font-size: 10px;
+        height: 43px;
+    }
+    header>a>img{
+        max-width: 100px;
+    }
+    header>nav>ul>a{
+        font-size: 14px;
+    }
+    header>nav>ul>li:nth-child(4){
+        margin-right: 100px;
+    }
+    /*footer*/
+    footer{
+        font-size: 11px;
+    }
+
+}
+/*768-320*/
+@media screen and (max-width: 768px) and (min-width: 320px){
+    /*header*/
+    header{
+        font-size: 6px;
+        height: 73px;
+    }
+
+    header>nav>ul>a{
+        font-size: 9px;
+    }
+
+    header>nav>ul>li:nth-child(4){
+        margin-right: 0px;
+    }
+    header>nav{
+        text-align: center;
+    }
+
+    header>a>img{
+        max-width: 35px;
+    }
+    /*footer*/
+    footer{
+        font-size: 7px;
+    }
+    /*main*/
+    main>h1{
+        font-size: 20px;
+    }
+    main>p{
+        font-size: 12px;
+    }
+    main>a{
+        font-size: 15px;
+        height: 35px;
+        width: 140px;
+    }
 }
